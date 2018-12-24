@@ -12,8 +12,7 @@ import com.mongodb.MongoClient;
 
 /**
  * This class is the configuration class for the mongo database
- * 
- * @author adurand
+ *
  */
 @Configuration
 @EnableMongoRepositories(basePackages = "com.adrien.poc.repository")

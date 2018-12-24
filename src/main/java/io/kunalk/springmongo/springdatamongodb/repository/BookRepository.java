@@ -9,8 +9,7 @@ import org.springframework.stereotype.Repository;
 /**
  * This class is the repository interface for accessing Spring Data methods
  * 
- * @author adurand
- */
+  */
 @Repository
 public interface BookRepository extends MongoRepository<Books, Long> {
 

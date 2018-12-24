@@ -12,8 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * This class is the controller class for the books {@link Books}. All the CRUD methods are reachable by REST service.
- * 
- * @author adurand
+ *
  */
 @RestController
 @RequestMapping("/api/books")

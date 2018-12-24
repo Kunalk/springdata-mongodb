@@ -12,8 +12,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * This class is the service for the books {@link Books}
- * 
- * @author adurand
+ *
  */
 @Service
 public class BooksService extends BaseService<Books, BookRepository> {

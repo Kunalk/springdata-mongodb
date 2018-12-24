@@ -12,8 +12,7 @@ import org.springframework.stereotype.Repository;
 
 /**
  * This class is the repository for getting a sequence key from mongo database
- * 
- * @author adurand
+ *
  */
 @Repository
 public class SequenceRepository {
