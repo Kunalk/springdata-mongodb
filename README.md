@@ -1,4 +1,29 @@
-# POC Mongo DB with spring boot + spring boot web + spring data
+# Mongo DB with spring boot using springdata 
+
+### Environment
+- Java 8
+- Spring Boot 2.1
+- Spring data mongodb
+
+## Use
+
+Run the Application.java file as a "Java Application".
+To access the CRUD method you can use the following URI:
+
+* http://localhost:8080/api/books/createBook/{title}/{author}/{nbPages}
+* http://localhost:8080/api/books/createBooks
+* http://localhost:8080/api/books/deleteBooks
+* http://localhost:8080/api/books/deleteBook/{id}
+* http://localhost:8080/api/books/findBook/{id}
+* http://localhost:8080/api/books/findBook/title/{title}
+* http://localhost:8080/api/books/findBook/author/{author}
+* http://localhost:8080/api/books/findBooks
+* http://localhost:8080/api/books/updateBook/{id}/{title}/{author}/{nbPages}
+* http://localhost:8080/api/books/updateBookTitle/{id}/{title}
+
+For more informations, please look at the javaDoc of the BooksController.java methods. 
+
+
 
 ## Installation
 
@@ -42,26 +67,5 @@ db.sequence.insert({
   seq: 0
 })
 ```
-
-## Use
-
-Run the Application.java file as a "Java Application".
-To access the CRUD method you can use the following URI:
-
-* http://localhost:8080/api/books/createBook/{title}/{author}/{nbPages}
-* http://localhost:8080/api/books/createBooks
-* http://localhost:8080/api/books/deleteBooks
-* http://localhost:8080/api/books/deleteBook/{id}
-* http://localhost:8080/api/books/findBook/{id}
-* http://localhost:8080/api/books/findBook/title/{title}
-* http://localhost:8080/api/books/findBook/author/{author}
-* http://localhost:8080/api/books/findBooks
-* http://localhost:8080/api/books/updateBook/{id}/{title}/{author}/{nbPages}
-* http://localhost:8080/api/books/updateBookTitle/{id}/{title}
-
-For more informations, please look at the javaDoc of the BooksController.java methods. 
-
-
-
 
 
